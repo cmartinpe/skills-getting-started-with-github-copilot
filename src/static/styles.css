@@ -74,6 +74,32 @@ section h3 {
   margin-bottom: 8px;
 }
 
+.participants-list {
+  list-style-type: none;
+  margin-left: 0;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.participants-list li {
+  margin-bottom: 5px;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.delete-icon {
+  color: #c62828;
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.delete-icon:hover {
+  color: #b71c1c;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
